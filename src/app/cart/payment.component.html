@@ -1,0 +1,52 @@
+<div class="mt-5">
+    <div class="row justify-content-center">
+        <div class="col col-4">
+        <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+          <!--Payment section-->
+          <div formGroupName="paymentDetails" class="col">
+            <h4>Payment</h4>
+            <label>Total price : {{ totalPrice}}</label>
+            <br/>
+            <label>Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa"></i>
+              <i class="fa fa-cc-amex ml-1"></i>
+              <i class="fa fa-cc-mastercard ml-1"></i>
+              <i class="fa fa-cc-discover ml-1"></i>
+            </div>
+            <label>Name</label>
+            <div>
+              <input type="text" placeholder="John B Williams" formControlName="name" [(ngModel)]="paymentDetails.name">
+            </div>
+            <label>Credit card number</label>
+            <div>
+              <input type="text" placeholder="1111-2222-3333-4444" formControlName="cardNumber" [(ngModel)]="paymentDetails.cardNumber">
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label>Valid From</label>
+                <input type="text" placeholder="01/20" formControlName="validFrom" [(ngModel)]="paymentDetails.validFrom">
+              </div>
+              <div class="col-6">
+                <label>Expires End</label>
+                <input type="text" placeholder="01/23" formControlName="expiresEnd" [(ngModel)]="paymentDetails.expiresEnd">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label>CVV</label>
+                <input type="text" placeholder="352" formControlName="cvv" [(ngModel)]="paymentDetails.cvv">
+              </div>
+            </div>
+          <!--END Payment section-->
+            <br/>
+            <button class="btn btn-success" type="submit"
+                [disabled]="checkoutForm.invalid">
+                Purchase
+            </button>
+        </div>
+    </form>
+        </div>      
+    </div>
+</div>
+  

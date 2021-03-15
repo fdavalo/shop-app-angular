@@ -1,0 +1,2331 @@
+{
+  "orders": [
+    {
+      "delivery": {
+        "type": "Postal",
+        "price": 2.99
+      },
+      "billing": {
+        "fullName": "franck user1",
+        "email": "user1@gmail.com",
+        "address": {
+          "street": "3, rue de Londres",
+          "city": "Paris",
+          "country": "France",
+          "postalCode": "75010"
+        }
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "iPhone 11",
+          "price": 970,
+          "color": "Yellow",
+          "memorySize": 64,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 64,
+              "price": 970
+            },
+            {
+              "size": 128,
+              "price": 1050
+            },
+            {
+              "size": 256,
+              "price": 1180
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Yellow",
+              "color": "yellow",
+              "path": [
+                {
+                  "img": "../assets/img/11/yellow/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/11/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/11/green/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Red",
+              "color": "red",
+              "path": [
+                {
+                  "img": "../assets/img/11/red/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 972.99,
+      "userId": "user1@gmail.com",
+      "id": 1615570721492
+    },
+    {
+      "delivery": {
+        "type": "Postal",
+        "price": 2.99
+      },
+      "billing": {
+        "fullName": "franck user1",
+        "email": "user1@gmail.com",
+        "address": {
+          "street": "3, rue de Londres",
+          "city": "Paris",
+          "country": "France",
+          "postalCode": "75010"
+        }
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "iPhone 11",
+          "price": 970,
+          "color": "Yellow",
+          "memorySize": 64,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 64,
+              "price": 970
+            },
+            {
+              "size": 128,
+              "price": 1050
+            },
+            {
+              "size": 256,
+              "price": 1180
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Yellow",
+              "color": "yellow",
+              "path": [
+                {
+                  "img": "../assets/img/11/yellow/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/11/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/11/green/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Red",
+              "color": "red",
+              "path": [
+                {
+                  "img": "../assets/img/11/red/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 972.99,
+      "userId": "user1@gmail.com",
+      "id": 1615570924950
+    },
+    {
+      "delivery": {
+        "type": "Postal",
+        "price": 2.99
+      },
+      "billing": {
+        "fullName": "franck user1",
+        "email": "user1@gmail.com",
+        "address": {
+          "street": "3, rue de Londres",
+          "city": "Paris",
+          "country": "France",
+          "postalCode": "75010"
+        }
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "iPhone 11",
+          "price": 970,
+          "color": "Yellow",
+          "memorySize": 64,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 64,
+              "price": 970
+            },
+            {
+              "size": 128,
+              "price": 1050
+            },
+            {
+              "size": 256,
+              "price": 1180
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Yellow",
+              "color": "yellow",
+              "path": [
+                {
+                  "img": "../assets/img/11/yellow/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/11/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/11/green/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Red",
+              "color": "red",
+              "path": [
+                {
+                  "img": "../assets/img/11/red/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 972.99,
+      "userId": "user1@gmail.com",
+      "id": 1615571038789
+    },
+    {
+      "delivery": {
+        "type": "2 Day",
+        "price": 9.99
+      },
+      "billing": {
+        "fullName": "franck user2",
+        "email": "user2@gmail.com",
+        "address": {
+          "street": "2, avenue de la Liberté",
+          "city": "Nantes",
+          "country": "France",
+          "postalCode": "44100"
+        }
+      },
+      "products": [
+        {
+          "id": 4,
+          "name": "Samsung Galaxy S10",
+          "price": 1100,
+          "color": "Green",
+          "memorySize": 256,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1040
+            },
+            {
+              "size": 256,
+              "price": 1100
+            },
+            {
+              "size": 512,
+              "price": 1230
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "White",
+              "color": "white",
+              "path": [
+                {
+                  "img": "../assets/img/s10/white/0.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/s10/black/0.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/s10/green/0.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Silver",
+              "color": "silver",
+              "path": [
+                {
+                  "img": "../assets/img/s10/silver/0.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "iPhone 11 Pro Max",
+          "price": 1568,
+          "color": "Midnight Green",
+          "memorySize": 512,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1380
+            },
+            {
+              "size": 256,
+              "price": 1450
+            },
+            {
+              "size": 512,
+              "price": 1568
+            }
+          ],
+          "image": [
+            {
+              "color": "darkslategrey",
+              "phoneColor": "Space Grey",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/space-grey/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "silver",
+              "phoneColor": "Silver",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/silver/silver.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "grey",
+              "phoneColor": "Midnight Green",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/midnight/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "palegoldenrod",
+              "phoneColor": "Gold",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/gold/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 2677.99,
+      "userId": "user2@gmail.com",
+      "id": 1615760760372
+    },
+    {
+      "delivery": {
+        "type": "Overnight",
+        "price": 25.99
+      },
+      "billing": {
+        "fullName": "franck user2",
+        "email": "user2@gmail.com",
+        "address": {
+          "street": "2, avenue de la Liberté",
+          "city": "Nantes",
+          "country": "France",
+          "postalCode": "44100"
+        }
+      },
+      "products": [
+        {
+          "id": 5,
+          "name": "Samsung Galaxy S20",
+          "price": 1340,
+          "color": "Pink",
+          "memorySize": 128,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1340
+            },
+            {
+              "size": 256,
+              "price": 1399
+            },
+            {
+              "size": 512,
+              "price": 1490
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Pink",
+              "color": "pink",
+              "path": [
+                {
+                  "img": "../assets/img/s20/pink/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/s20/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Grey",
+              "color": "grey",
+              "path": [
+                {
+                  "img": "../assets/img/s20/grey/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/all.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Huawei P30 Pro",
+          "price": 1599,
+          "color": "Amber Sunrise",
+          "memorySize": 512,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 256,
+              "price": 1440
+            },
+            {
+              "size": 512,
+              "price": 1599
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Amber Sunrise",
+              "color": "linear-gradient(to top, #ae0e18, #c34012, #d46508, #e28903, #ebac12)",
+              "path": [
+                {
+                  "img": "../assets/img/p30/ambersunrise.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/p30/black.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Aurora",
+              "color": "linear-gradient(to top, #0e49ae, #005eb0, #006ca3, #007690, #0e7d7f)",
+              "path": [
+                {
+                  "img": "../assets/img/p30/aurora.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "iPhone 11 Pro Max",
+          "price": 1380,
+          "color": "Gold",
+          "memorySize": 128,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1380
+            },
+            {
+              "size": 256,
+              "price": 1450
+            },
+            {
+              "size": 512,
+              "price": 1568
+            }
+          ],
+          "image": [
+            {
+              "color": "darkslategrey",
+              "phoneColor": "Space Grey",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/space-grey/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "silver",
+              "phoneColor": "Silver",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/silver/silver.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "grey",
+              "phoneColor": "Midnight Green",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/midnight/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "palegoldenrod",
+              "phoneColor": "Gold",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/gold/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 4344.99,
+      "userId": "user2@gmail.com",
+      "id": 1615760932124
+    },
+    {
+      "delivery": {
+        "type": "Overnight",
+        "price": 25.99
+      },
+      "billing": {
+        "fullName": "franck user3",
+        "email": "user3@gmail.com",
+        "address": {
+          "street": "",
+          "city": "",
+          "country": "",
+          "county": "",
+          "postalCode": ""
+        }
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "iPhone 11",
+          "price": 970,
+          "color": "Yellow",
+          "memorySize": 64,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 64,
+              "price": 970
+            },
+            {
+              "size": 128,
+              "price": 1050
+            },
+            {
+              "size": 256,
+              "price": 1180
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Yellow",
+              "color": "yellow",
+              "path": [
+                {
+                  "img": "../assets/img/11/yellow/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/11/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/11/green/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Red",
+              "color": "red",
+              "path": [
+                {
+                  "img": "../assets/img/11/red/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 995.99,
+      "userId": "user3@gmail.com",
+      "id": 1615761053656
+    },
+    {
+      "delivery": {
+        "type": "Postal",
+        "price": 2.99
+      },
+      "billing": {
+        "fullName": "franck user1",
+        "email": "user1@gmail.com",
+        "address": {
+          "street": "3, rue de Londres",
+          "city": "Paris",
+          "country": "France",
+          "postalCode": "75010"
+        }
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "iPhone 11",
+          "price": 970,
+          "color": "Yellow",
+          "memorySize": 64,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 64,
+              "price": 970
+            },
+            {
+              "size": 128,
+              "price": 1050
+            },
+            {
+              "size": 256,
+              "price": 1180
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Yellow",
+              "color": "yellow",
+              "path": [
+                {
+                  "img": "../assets/img/11/yellow/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/yellow/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/11/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Green",
+              "color": "lightseagreen",
+              "path": [
+                {
+                  "img": "../assets/img/11/green/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/green/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Red",
+              "color": "red",
+              "path": [
+                {
+                  "img": "../assets/img/11/red/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11/red/all.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Samsung Galaxy S20",
+          "price": 1340,
+          "color": "Pink",
+          "memorySize": 128,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1340
+            },
+            {
+              "size": 256,
+              "price": 1399
+            },
+            {
+              "size": 512,
+              "price": 1490
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Pink",
+              "color": "pink",
+              "path": [
+                {
+                  "img": "../assets/img/s20/pink/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/pink/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/s20/black/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/black/all.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Grey",
+              "color": "grey",
+              "path": [
+                {
+                  "img": "../assets/img/s20/grey/0.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/1.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/3.jpg"
+                },
+                {
+                  "img": "../assets/img/s20/grey/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 2312.99,
+      "userId": "user1@gmail.com",
+      "id": 1615818264238
+    },
+    {
+      "delivery": {
+        "type": "Overnight",
+        "price": 25.99
+      },
+      "billing": {
+        "fullName": "franck user2",
+        "email": "user2@gmail.com",
+        "address": {
+          "street": "2, avenue de la Liberté",
+          "city": "Nantes",
+          "country": "France",
+          "postalCode": "44100"
+        }
+      },
+      "products": [
+        {
+          "id": 6,
+          "name": "Huawei P30 Pro",
+          "price": 1440,
+          "color": "Amber Sunrise",
+          "memorySize": 256,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 256,
+              "price": 1440
+            },
+            {
+              "size": 512,
+              "price": 1599
+            }
+          ],
+          "image": [
+            {
+              "phoneColor": "Amber Sunrise",
+              "color": "linear-gradient(to top, #ae0e18, #c34012, #d46508, #e28903, #ebac12)",
+              "path": [
+                {
+                  "img": "../assets/img/p30/ambersunrise.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Black",
+              "color": "black",
+              "path": [
+                {
+                  "img": "../assets/img/p30/black.jpg"
+                }
+              ]
+            },
+            {
+              "phoneColor": "Aurora",
+              "color": "linear-gradient(to top, #0e49ae, #005eb0, #006ca3, #007690, #0e7d7f)",
+              "path": [
+                {
+                  "img": "../assets/img/p30/aurora.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "iPhone 11 Pro Max",
+          "price": 1380,
+          "color": "Space Grey",
+          "memorySize": 128,
+          "display": "5.8-inch Super Retina XDR OLED display",
+          "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+          "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+          "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+          "futures": "Face ID for secure authentication and Apple Pay",
+          "processor": "A13 Bionic chip with third-generation Neural Engine",
+          "charging": "Fast charge with 18W adapter included",
+          "memory": [
+            {
+              "size": 128,
+              "price": 1380
+            },
+            {
+              "size": 256,
+              "price": 1450
+            },
+            {
+              "size": 512,
+              "price": 1568
+            }
+          ],
+          "image": [
+            {
+              "color": "darkslategrey",
+              "phoneColor": "Space Grey",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/space-grey/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/space-grey/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "silver",
+              "phoneColor": "Silver",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/silver/silver.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/silver4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/silver/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "grey",
+              "phoneColor": "Midnight Green",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/midnight/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/midnight/all.jpg"
+                }
+              ]
+            },
+            {
+              "color": "palegoldenrod",
+              "phoneColor": "Gold",
+              "path": [
+                {
+                  "img": "../assets/img/11pro/gold/0.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/1.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/2.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/3.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/4.jpg"
+                },
+                {
+                  "img": "../assets/img/11pro/gold/all.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 2845.99,
+      "userId": "user2@gmail.com",
+      "id": 1615833174707
+    }
+  ],
+  "users": [
+    {
+      "id": "admin@gmail.com",
+      "password": "60dd1d078a76397c520fc9ac59670e56",
+      "admin": true
+    },
+    {
+      "id": "user1@gmail.com",
+      "password": "729921e9aa859f0268ce343533e26e3c",
+      "addresses": [
+        {
+          "street": "3, rue de Londres",
+          "city": "Paris",
+          "country": "France",
+          "postalCode": "75010"
+        }
+      ],
+      "fullName": "franck user1"
+    },
+    {
+      "id": "user2@gmail.com",
+      "password": "350520990d4bc59642c30202b5fdb081",
+      "addresses": [
+        {
+          "street": "2, avenue de la Liberté",
+          "city": "Nantes",
+          "country": "France",
+          "postalCode": "44100"
+        }
+      ],
+      "fullName": "franck user2"
+    },
+    {
+      "id": "user3@gmail.com",
+      "password": "b422b4721d3203cf5251f18a9c9883b4"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "15f1cd4b701302333d6f26bd7649716a",
+      "userId": "admin@gmail.com",
+      "expiration": 1615380706163
+    },
+    {
+      "id": "88333f83678e0019913edd70e4451809",
+      "userId": "user1@gmail.com",
+      "expiration": 1615383025596
+    },
+    {
+      "id": "428179c46cedf306dfab8d68ff81c72a",
+      "userId": "user1@gmail.com",
+      "expiration": 1615419676380
+    },
+    {
+      "id": "a339600bbf1707e7b687f0e68e398556",
+      "userId": "user1@gmail.com",
+      "expiration": 1615419819534
+    },
+    {
+      "id": "d7cdf3cde2b5d686c48cd9fb56cd44cc",
+      "userId": "user1@gmail.com",
+      "expiration": 1615421180272
+    },
+    {
+      "id": "02c3d1db265998653530eab74a85555c",
+      "userId": "user1@gmail.com",
+      "expiration": 1615421446546
+    },
+    {
+      "id": "41e06b17b53fee3df6e211fbbf399f50",
+      "userId": "user1@gmail.com",
+      "expiration": 1615421666045
+    },
+    {
+      "id": "d90fcdaee782a59715ebf8165c91eee4",
+      "userId": "user1@gmail.com",
+      "expiration": 1615466579720
+    },
+    {
+      "id": "972db28ab13a1cbeb15f556382953c05",
+      "userId": "user2@gmail.com",
+      "expiration": 1615479964980
+    },
+    {
+      "id": "d68df3d451f45ffa396dc9b42826fa9a",
+      "userId": "user2@gmail.com",
+      "expiration": 1615480770030
+    },
+    {
+      "id": "737474f05f2f714a83f404e60b49b948",
+      "userId": "user1@gmail.com",
+      "expiration": 1615481090733
+    },
+    {
+      "id": "680969c47f105ed81d711855a8e24d13",
+      "userId": "user1@gmail.com",
+      "expiration": 1615483496601
+    },
+    {
+      "id": "3741503f7bf557fc460fbfe88dee2be4",
+      "userId": "user1@gmail.com",
+      "expiration": 1615483944684
+    },
+    {
+      "id": "8b0c140732f85791313f656754a22939",
+      "userId": "user1@gmail.com",
+      "expiration": 1615485828528,
+      "expirationTime": 1615485695738
+    },
+    {
+      "id": "0d2cd545f3d7624b239070a55fa3e12b",
+      "userId": "user1@gmail.com",
+      "expiration": 1615571951020
+    },
+    {
+      "id": "70c4bc64548721d12179b39514e8ec93",
+      "userId": "user1@gmail.com",
+      "expiration": 1615586650635
+    },
+    {
+      "id": "28bc14ae68dc87059778b72646117789",
+      "userId": "user1@gmail.com",
+      "expiration": 1615590991891
+    },
+    {
+      "id": "2771eb6585f5abf02039f5ed6abeb99b",
+      "userId": "user1@gmail.com",
+      "expiration": 1615717423083
+    },
+    {
+      "id": "84d2e22ee033f0f980b583e15eeb7fea",
+      "userId": "user1@gmail.com",
+      "expiration": 1615720328575
+    },
+    {
+      "id": "7467e20516bd70325904d31edab76636",
+      "userId": "user1@gmail.com",
+      "expiration": 1615734771228
+    },
+    {
+      "id": "578d5418b05542fbc96ffece43a42498",
+      "userId": "user1@gmail.com",
+      "expiration": 1615739328266
+    },
+    {
+      "id": "5cae626a127d6b3499c14d128060e87f",
+      "userId": "user1@gmail.com",
+      "expiration": 1615740572139
+    },
+    {
+      "id": "efc9a4f04d64d2e9f44899667447f206",
+      "userId": "user1@gmail.com",
+      "expiration": 1615760896737
+    },
+    {
+      "id": "f3e093f10949fb346905530831b3c06d",
+      "userId": "user1@gmail.com",
+      "expiration": 1615761247754
+    },
+    {
+      "id": "e33fd237fbddcdf527d6446a08c65b78",
+      "userId": "user2@gmail.com",
+      "expiration": 1615761268847
+    },
+    {
+      "id": "a03db14489e5e797ddd2481b90891fe3",
+      "userId": "user2@gmail.com",
+      "expiration": 1615761576837
+    },
+    {
+      "id": "bc06ab8f39c957aa7ce585645aca6e51",
+      "userId": "user3@gmail.com",
+      "expiration": 1615761658789
+    },
+    {
+      "id": "4f376555f04e931717c2bdb1458fffb9",
+      "userId": "user1@gmail.com",
+      "expiration": 1615818867598
+    },
+    {
+      "id": "b49aecdc95f2731dea76f816894ef67b",
+      "userId": "user2@gmail.com",
+      "expiration": 1615833804716
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "iPhone 11 Pro Max",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 128,
+          "price": 1380
+        },
+        {
+          "size": 256,
+          "price": 1450
+        },
+        {
+          "size": 512,
+          "price": 1568
+        }
+      ],
+      "image": [
+        {
+          "color": "darkslategrey",
+          "phoneColor": "Space Grey",
+          "path": [
+            {
+              "img": "../assets/img/11pro/space-grey/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "silver",
+          "phoneColor": "Silver",
+          "path": [
+            {
+              "img": "../assets/img/11pro/silver/silver.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "grey",
+          "phoneColor": "Midnight Green",
+          "path": [
+            {
+              "img": "../assets/img/11pro/midnight/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "palegoldenrod",
+          "phoneColor": "Gold",
+          "path": [
+            {
+              "img": "../assets/img/11pro/gold/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/all.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "iPhone 11",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 64,
+          "price": 970
+        },
+        {
+          "size": 128,
+          "price": 1050
+        },
+        {
+          "size": 256,
+          "price": 1180
+        }
+      ],
+      "image": [
+        {
+          "phoneColor": "Yellow",
+          "color": "yellow",
+          "path": [
+            {
+              "img": "../assets/img/11/yellow/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Black",
+          "color": "black",
+          "path": [
+            {
+              "img": "../assets/img/11/black/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Green",
+          "color": "lightseagreen",
+          "path": [
+            {
+              "img": "../assets/img/11/green/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Red",
+          "color": "red",
+          "path": [
+            {
+              "img": "../assets/img/11/red/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/all.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S10",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 128,
+          "price": 1040
+        },
+        {
+          "size": 256,
+          "price": 1100
+        },
+        {
+          "size": 512,
+          "price": 1230
+        }
+      ],
+      "image": [
+        {
+          "phoneColor": "White",
+          "color": "white",
+          "path": [
+            {
+              "img": "../assets/img/s10/white/0.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Black",
+          "color": "black",
+          "path": [
+            {
+              "img": "../assets/img/s10/black/0.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Green",
+          "color": "lightseagreen",
+          "path": [
+            {
+              "img": "../assets/img/s10/green/0.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Silver",
+          "color": "silver",
+          "path": [
+            {
+              "img": "../assets/img/s10/silver/0.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy S20",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 128,
+          "price": 1340
+        },
+        {
+          "size": 256,
+          "price": 1399
+        },
+        {
+          "size": 512,
+          "price": 1490
+        }
+      ],
+      "image": [
+        {
+          "phoneColor": "Pink",
+          "color": "pink",
+          "path": [
+            {
+              "img": "../assets/img/s20/pink/0.jpg"
+            },
+            {
+              "img": "../assets/img/s20/pink/1.jpg"
+            },
+            {
+              "img": "../assets/img/s20/pink/3.jpg"
+            },
+            {
+              "img": "../assets/img/s20/pink/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Black",
+          "color": "black",
+          "path": [
+            {
+              "img": "../assets/img/s20/black/0.jpg"
+            },
+            {
+              "img": "../assets/img/s20/black/1.jpg"
+            },
+            {
+              "img": "../assets/img/s20/black/3.jpg"
+            },
+            {
+              "img": "../assets/img/s20/black/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Grey",
+          "color": "grey",
+          "path": [
+            {
+              "img": "../assets/img/s20/grey/0.jpg"
+            },
+            {
+              "img": "../assets/img/s20/grey/1.jpg"
+            },
+            {
+              "img": "../assets/img/s20/grey/3.jpg"
+            },
+            {
+              "img": "../assets/img/s20/grey/all.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Huawei P30 Pro",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 256,
+          "price": 1440
+        },
+        {
+          "size": 512,
+          "price": 1599
+        }
+      ],
+      "image": [
+        {
+          "phoneColor": "Amber Sunrise",
+          "color": "linear-gradient(to top, #ae0e18, #c34012, #d46508, #e28903, #ebac12)",
+          "path": [
+            {
+              "img": "../assets/img/p30/ambersunrise.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Black",
+          "color": "black",
+          "path": [
+            {
+              "img": "../assets/img/p30/black.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Aurora",
+          "color": "linear-gradient(to top, #0e49ae, #005eb0, #006ca3, #007690, #0e7d7f)",
+          "path": [
+            {
+              "img": "../assets/img/p30/aurora.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "iPhone 11 Pro Max",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 128,
+          "price": 1380
+        },
+        {
+          "size": 256,
+          "price": 1450
+        },
+        {
+          "size": 512,
+          "price": 1568
+        }
+      ],
+      "image": [
+        {
+          "color": "darkslategrey",
+          "phoneColor": "Space Grey",
+          "path": [
+            {
+              "img": "../assets/img/11pro/space-grey/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/space-grey/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "silver",
+          "phoneColor": "Silver",
+          "path": [
+            {
+              "img": "../assets/img/11pro/silver/silver.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/silver4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/silver/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "grey",
+          "phoneColor": "Midnight Green",
+          "path": [
+            {
+              "img": "../assets/img/11pro/midnight/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/midnight/all.jpg"
+            }
+          ]
+        },
+        {
+          "color": "palegoldenrod",
+          "phoneColor": "Gold",
+          "path": [
+            {
+              "img": "../assets/img/11pro/gold/0.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/1.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/2.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/3.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/4.jpg"
+            },
+            {
+              "img": "../assets/img/11pro/gold/all.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "iPhone 11",
+      "price": "",
+      "color": "",
+      "memorySize": "",
+      "display": "5.8-inch Super Retina XDR OLED display",
+      "waterResistant": "Water and dust resistant (4 metres for up to 30 minutes, IP68)",
+      "camera": "Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps",
+      "frontCamera": "12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo",
+      "futures": "Face ID for secure authentication and Apple Pay",
+      "processor": "A13 Bionic chip with third-generation Neural Engine",
+      "charging": "Fast charge with 18W adapter included",
+      "memory": [
+        {
+          "size": 64,
+          "price": 970
+        },
+        {
+          "size": 128,
+          "price": 1050
+        },
+        {
+          "size": 256,
+          "price": 1180
+        }
+      ],
+      "image": [
+        {
+          "phoneColor": "Yellow",
+          "color": "yellow",
+          "path": [
+            {
+              "img": "../assets/img/11/yellow/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/yellow/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Black",
+          "color": "black",
+          "path": [
+            {
+              "img": "../assets/img/11/black/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/black/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Green",
+          "color": "lightseagreen",
+          "path": [
+            {
+              "img": "../assets/img/11/green/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/green/all.jpg"
+            }
+          ]
+        },
+        {
+          "phoneColor": "Red",
+          "color": "red",
+          "path": [
+            {
+              "img": "../assets/img/11/red/0.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/1.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/2.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/3.jpg"
+            },
+            {
+              "img": "../assets/img/11/red/all.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<div class="container">
+    <h2>My Orders</h2>
+    <div class="row justify-content-center" [appHighlight]
+           *ngFor="let order of orders"
+           (click)="goToOrder(order)">
+        <div class="col col-12" >
+            <div class="row vcenter">
+                <div class="col col-12"> On {{ orderDate(order) }}</div>
+            </div>
+            <div class="row vcenter">
+                <div class="col col-3 mid" style="color: black">
+                    Product
+                </div>
+                <div class="col col-3 col-lg-3 mid" style="color: black">
+                    
+                </div>
+                <div class="col col-3 mid" style="color: black">
+                    Size
+                </div>
+                <div class="col col-3 mid" style="color: black">
+                    Price
+                </div>
+            </div>
+            <a>
+            <div class="row vcenter" *ngFor="let product of order.products">
+                <div class="col col-3" style="color: black">
+                    <b>{{ product.name }}</b>
+                </div>
+                <div class="col col-3 col-lg-3" style="color: black">
+                    <img class="mt-1 middle" [src]="selectedImage(product).path[0].img">
+                </div>
+                <div class="col col-3" style="color: black">
+                    <b>{{ product.memorySize }}GB</b>
+                </div>
+                <div class="col col-3" style="color: black">
+                    <b>{{ product.price | currency }}</b>
+                </div>
+            </div>
+            </a>
+            <div class="row vcenter">
+                <div class="col col-9">Total</div>
+                <div class="col col-3" style="font-size: 20px;"> {{ order.totalPrice | currency }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+  

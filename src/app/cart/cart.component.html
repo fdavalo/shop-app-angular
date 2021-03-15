@@ -1,0 +1,64 @@
+<div class="mt-5">
+  <div class="row justify-content-center">
+    <div class="col col-4">
+      <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+        <!--Cart section-->
+          <div class="card">
+            <div class="card-body cart">
+              <div class="emptyCart" *ngIf="products.length === 0">
+                <h5>Cart
+                  <span class="float-right">
+                    <i class="fa fa-shopping-cart"></i>
+                  </span>
+                </h5>
+                <hr>
+                <p>
+                  Your cart is empty
+                </p>
+              </div>
+              <div *ngIf="products.length >= 1">
+                <h5>Cart
+                  <span class="float-right">
+                    <i class="fa fa-shopping-cart"></i>
+                  </span>
+                </h5>
+                <div class="text-size">
+                  <p class="cartProduct" *ngFor="let product of products">
+                    <i class="fa fa-trash-o text-danger" (click)="removeItem(product)"></i>
+                    <span class="ml-2">{{ product.name }}({{product.memorySize}}GB)-{{product.color}}</span>
+                    <span class="float-right">{{ product.price | currency }}</span>
+                  </p>
+                  <hr>
+                  <!--Select shipping price section-->
+                  <div class="form-group">
+                    <p>Delivery options</p>
+                    <select class="form-control form-control-sm" [(ngModel)]="selectedDelivery"
+                            (change)="selectedDeliveryPrice()" [ngModelOptions]="{standalone: true}">
+                      <option disabled>Select Delivery</option>
+                      <option *ngFor="let shippingPrice of shippingPrices" [ngValue]="shippingPrice">
+                        {{ shippingPrice.type }} - {{ shippingPrice.price }}
+                      </option>
+                    </select>
+                  </div>
+                  <!--END Select shipping price section-->
+                  <hr>
+                  <p *ngIf="!selectedShipPrice">
+                    <b>Total<span class="float-right">{{ totalPhonePrice | currency }}</span></b>
+                  </p>
+                  <p *ngIf="selectedShipPrice">
+                    <b>Total<span class="float-right">{{ totalPrice | currency }}</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--END Cart section-->
+        <button class="btn btn-success" type="submit"
+              [disabled]="checkoutForm.invalid || products.length === 0 || !selectedShipPrice">
+            Continue
+        </button>
+      </form>
+    </div>    
+  </div>
+</div>
