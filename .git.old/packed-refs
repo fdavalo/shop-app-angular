@@ -1,0 +1,24 @@
+# pack-refs with: peeled fully-peeled sorted 
+f60adcb860cf82a13ad7c815fc8fb3f6d7a42ace refs/remotes/origin/cart
+05df9deedf0378480d9e8ac19c3240bc9c7816ef refs/remotes/origin/develop
+3b8412d67fe41c40dbf0fd2508e18b2586814112 refs/remotes/origin/feature/side-images
+98b84c9795083bd66ba17e69b3c91dc8d326d8b7 refs/remotes/origin/feature/sweetalert
+316998ab306aa1a63b7e5d7978ae6ce5a9d7c6d3 refs/remotes/origin/fix/counter
+3fbb9e0c4436bdc9d7b87d7f0b8777ebc055effa refs/remotes/origin/fix/hotfix
+9934fef237395aa51ca4962418b03c96f86b368b refs/remotes/origin/fix/navbar-cart-counter
+2d083652074366a2419536a0e6b9f0e933db21a2 refs/remotes/origin/fix/pagination
+9deae5279a1d4640cf295ca785029a503f1b2fc7 refs/remotes/origin/fix/remove-pagination
+5220775e89e138b7dc3be40069c005be859e7e9f refs/remotes/origin/fix/submit-product
+e019d0428dbe69dc164d1254e31fc1f870dc8374 refs/remotes/origin/fixing
+16039b43dbd55138bbbadb3f59f3d75020328080 refs/remotes/origin/future/admin-panel
+1d8dfc51a953dd21b8f7d895a6bef868c571688b refs/remotes/origin/future/create-product
+e0968c9a065ef7ac09848a27937db17e6d6e8ac0 refs/remotes/origin/future/json-server
+245544155cf0158c2b4d67f7f38bd39d64fdbc10 refs/remotes/origin/future/updates
+38052699b3b089ee3a3d78b24cd692c99fb3f7cc refs/remotes/origin/highlight-directive
+25f9bebca83da93af9124726380f36ac249b0a6b refs/remotes/origin/hotfix/admin-panel
+f3d454e9f71d19340aab735dbd1fa98bfeeb715e refs/remotes/origin/hotfix/bugs
+6f8ec2650dbe99f29707b05760c63031eee33854 refs/remotes/origin/master
+9f7f22034d51cc4df2bc1e956784eb959e29a60f refs/remotes/origin/product-details
+69b380ffbf1ec40c8b6eb80398f93e9d065e371e refs/remotes/origin/product-list
+4419ebb2d59d4a9cbe0151a960ddc514a9083f83 refs/remotes/origin/responsive
+d435e36d95e0c12b26a7d1406af0f8ecc8864156 refs/remotes/origin/search-field
