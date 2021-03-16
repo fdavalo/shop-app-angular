@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {environment} from '../../environments/environment';
 import { AppConfigService } from '../providers/app-config.service';
 import { Router } from '@angular/router'; 
+import { isDevMode } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,8 @@ export class CartService {
       private config: AppConfigService,
       private router: Router) {
     this.load();
-    this.backendUrl = this.config.getConfig()['productUrl'];
+    if (isDevMode()) this.backendUrl = environment.productUrl;
+    else this.backendUrl = this.config.getConfig()['productUrl'];
   }
 
   load() {
