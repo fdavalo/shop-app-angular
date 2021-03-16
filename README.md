@@ -13,8 +13,11 @@ Then run `npm run start` for a prod server. Navigate to `http://localhost:8080/
 
 ## Deploy
 
-oc new-app nodejs-14~https://github.com/fdavalo/shop-app-angular.git  --name=shop-app-angular
-oc expose service/shop-app-angular
+`oc new-app nodejs-14~https://github.com/fdavalo/shop-app-angular.git  --name=shop-app-angular`
+
+`oc expose service/shop-app-angular`
+
+Then get your url from `oc get routes`
 
 ## Backend servers (products, users, orders)
 
