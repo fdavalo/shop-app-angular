@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../environments/environment';
 import { AppConfigService } from '../providers/app-config.service';
+import { Router } from '@angular/router'; 
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,9 @@ export class CartService {
   backendUrl: string; //environment.productUrl;
   cache = {'selectedDelivery':null,'products':[],'billing':null};
 
-  constructor(private http: HttpClient, private config: AppConfigService) {
+  constructor(private http: HttpClient, 
+      private config: AppConfigService,
+      private router: Router) {
     this.load();
     this.backendUrl = this.config.getConfig()['productUrl'];
   }

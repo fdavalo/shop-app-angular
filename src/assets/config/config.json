@@ -1,5 +1,5 @@
 {
-    "userUrl": "http://192.168.1.42:3000",
-    "productUrl": "http://192.168.1.42:3000",
-    "orderUrl": "http://192.168.1.42:3000"
+    "userUrl": "",
+    "productUrl": "",
+    "orderUrl": ""
 }
