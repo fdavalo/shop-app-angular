@@ -12,7 +12,6 @@ function salt(password, login) {
 function generateSession(login) {
   var rand = Math.random();
   var password = (rand * 100).toString();
-  console.log(password);
   return crypto.createHash('md5').update(salt(password, login)).digest("hex");
 }
 
