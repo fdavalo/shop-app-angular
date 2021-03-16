@@ -14,6 +14,8 @@ Then run `npm run start` for a prod server. Navigate to `http://localhost:8080/
 ## Deploy
 
 `oc new-app nodejs-14~https://github.com/fdavalo/shop-app-angular.git  --name=shop-app-angular`
+or
+`oc new-app quay.io/app-sre/ubi8-nodejs-10~https://github.com/fdavalo/shop-app-angular.git --name=shop-app-angular`
 
 `oc expose service/shop-app-angular`
 
