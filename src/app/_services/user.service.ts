@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../environments/environment';
 import { AppConfigService } from '../providers/app-config.service';
+import { isDevMode } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,8 @@ export class UserService {
 
   constructor(private http: HttpClient, private config: AppConfigService) {
       this.load();
-      this.backendUrl = this.config.getConfig()['userUrl'];
+      if (isDevMode()) this.backendUrl = environment.userUrl;
+    else this.backendUrl = this.config.getConfig()['userUrl'];
   }
 
   load() {

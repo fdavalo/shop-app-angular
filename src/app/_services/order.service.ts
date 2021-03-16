@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../environments/environment';
 import { AppConfigService } from '../providers/app-config.service';
+import { isDevMode } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,8 @@ export class OrderService {
   backendUrl: string; // = environment.orderUrl;
 
   constructor(private http: HttpClient, private config: AppConfigService) {
-    this.backendUrl = this.config.getConfig()['orderUrl'];
+    if (isDevMode()) this.backendUrl = environment.orderUrl;
+    else this.backendUrl = this.config.getConfig()['orderUrl'];
   }
 
   getOrders(session) {

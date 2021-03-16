@@ -4,10 +4,10 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000',
-  userUrl: 'http://localhost:3000',
-  productUrl: 'http://localhost:3000',
-  orderUrl: 'http://localhost:3000'
+  apiUrl: 'http://localhost:8080',
+  userUrl: 'http://localhost:8080',
+  productUrl: 'http://localhost:8080',
+  orderUrl: 'http://localhost:8080'
 };
 
 /*
