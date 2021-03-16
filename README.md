@@ -25,3 +25,9 @@ By default, the backend servers will be served by mock json-server.
 
 You need to set a configmap to replace assets/config/config.json with your backend urls, or in dev, modify environment.ts file
 
+Existing test users are : 
+
+user1@gmail.com:hello1
+user2@gmail.com:hello2
+
+You can create new ones.
